@@ -9,8 +9,11 @@ function App() {
     <center class="todo-container">
       <AppName />
       <AppTodo />
-      <TodoItem1></TodoItem1>
-      <TodoItem2></TodoItem2>
+      <div class=" items-container">
+        <TodoItem1></TodoItem1>
+        <TodoItem2></TodoItem2>
+      </div>
+
       {/* <TodoItem1 />
       <TodoItem2 /> */}
     </center>
